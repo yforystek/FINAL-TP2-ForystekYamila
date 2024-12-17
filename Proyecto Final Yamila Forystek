@@ -1,0 +1,70 @@
+Final Yamila Forystek
+
+Es un proyecto  de Gestion  de Calificaciones:
+en Node.js con express que permite gestionar Calificaciones
+
+Funciones:
+-Agregar Calificaciones de Alumnos
+
+--Permite ingresar las calificaciones de los alumnos
+--Las calificaciones deben estar entre 0 y 10
+
+Listar las calificaciones agrupadas por alumno:
+-- Devuelve las calificaciones de los alumnos agrupadas por nombre y apellido
+
+
+Para las Pruebas: 
+Por ThunderClient: Agregar alumnos 
+{
+  "nombre": "Carlos",
+  "apellido": "Ruiz",
+  "nota": 6
+}
+
+{
+  "nombre": "Marta",
+  "apellido": "López",
+  "nota": 8
+}
+
+{
+  "nombre": "Luis",
+  "apellido": "García",
+  "nota": 7
+}
+
+{
+  "nombre": "Carlos",
+  "apellido": "Ruiz",
+  "nota": 9
+}
+
+{
+  "nombre": "Marta",
+  "apellido": "López",
+  "nota": 7
+}
+
+{
+  "nombre": "Luis",
+  "apellido": "García",
+  "nota": 8
+}
+
+{
+  "nombre": "Carlos",
+  "apellido": "Ruiz",
+  "nota": 7
+}
+
+{
+  "nombre": "Marta",
+  "apellido": "López",
+  "nota": 10
+}
+
+{
+  "nombre": "Marta",
+  "apellido": "López",
+  "nota": 20
+} Este tira la excepcion
